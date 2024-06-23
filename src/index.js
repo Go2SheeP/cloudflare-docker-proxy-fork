@@ -6,6 +6,7 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
+  "docker-proxy.ciii.workers.dev": dockerHub,
   // production
   "docker.libcuda.so": dockerHub,
   "quay.libcuda.so": "https://quay.io",
